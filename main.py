@@ -7,12 +7,12 @@ def main():
     ip = input("Enter IP of mail server:")
     port = int(input("Enter port of mail server:"))
     timeout = input("Enter timeout period in seconds(Default:30):")
-    from_mail = input("Enter source IP address:")
-    to_mail = input("Enter destination IP address:")
-    subject = input("Enter subject of mail")
-    body = input("Enter body of mail")
-    path = input("Enter path of attachment")
-    filename = input("Enter filename of attachment")
+    from_mail = input("Enter name of sender:")
+    to_mail = input("Enter name of receiver:")
+    subject = input("Enter subject of mail:")
+    body = input("Enter body of mail:")
+    path = input("Enter path of attachment:")
+    filename = input("Enter filename of attachment:")
     content_id = input("Enter name of attachment(default: image1):")
 
     # Handles default arguments
